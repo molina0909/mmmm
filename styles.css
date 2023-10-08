@@ -1,0 +1,86 @@
+body {
+    font-family: "Arial Black", sans-serif;
+    margin: 1;
+    padding: 0%;
+}
+
+header {
+color: rgb(12, 69, 73);
+    text-align: center;
+    padding: 70px 0; 
+    background-color: hsla(0, 0%, 0%, 0.75);;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    animation: EnlargeBlock 0.5s both;
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;   
+}
+
+main {
+    padding: 140px;
+    animation: fadeintext .5s 1.1s both;
+    color: rgb(255, 255, 255);
+    background-color: hsla(0, 0%, 0%, 0.75);
+}
+
+@keyframes fadeintext {from {opacity: 0;} }
+{from{opacity .5;}}
+to {opacity: 1;}
+
+@keyframes EnlargeBlock {from {width: 50%;}
+  to {width : 100%}
+  }
+
+@keyframes revealblock  {from {transform: translateX(0);}
+    to { transform: translateX(100%);}
+}
+
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 90px 0;
+    animation: fadeintext .5s 1.5s both;
+    width: 100%;
+    position: absolute;
+    background-color: hsla(0, 0%, 0%, 0.75);
+}
+
+
+  .whatsapp-balloon {
+    position: absolute;
+    bottom: 30%; /* Posiciona o balão acima do footer */
+    right: 90%; /* Centraliza o balão horizontalmente */
+    transform: translateX(50%); /* Ajusta a posição do balão */
+    background-color: hsla(120, 100%, 50%, 0.75);
+    border-radius: 8px;
+    padding: 10px;
+    color: #050505;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+.meu-cv{
+    position: absolute;
+    bottom: 30%; /* Posiciona o balão acima do footer */
+    left: 80%; /* Centraliza o balão horizontalmente */
+    transform: translateX(50%); /* Ajusta a posição do balão */
+    background-color: rgba(255, 0, 0, 0.658);
+    border-radius: 8px;
+    padding: 10px;
+    color: #ffffff;
+    box-shadow: 0 3px 6px rgb(0, 0, 0);
+  }
+

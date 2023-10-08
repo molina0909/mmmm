@@ -1,0 +1,85 @@
+body {
+    font-family: "Arial Black", sans-serif;
+    margin: 1;
+    padding: 0%;
+    background-image: url('./tecno.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsla(0, 0%, 0%, 0.452);
+}
+
+
+header {
+    color: rgb(12, 69, 73);
+    text-align: center;
+    padding: 33px 0;   
+    background-color: hsla(0, 0%, 0%, 0.452);
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    animation: EnlargeBlock 0.5s both;
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;   
+}
+
+main {
+    padding: 211px;
+    animation: fadeintext .5s 1.1s both;
+    color: rgb(255, 255, 255);
+    background-color: hsla(0, 0%, 0%, 0.452);
+    
+}
+
+@keyframes fadeintext {from {opacity: 0;} }
+{from{opacity .5;}}
+to {opacity: 1;}
+
+@keyframes EnlargeBlock {from {width: 50%;}
+  to {width : 100%}
+  }
+
+@keyframes revealblock  {from {transform: translateX(0);}
+    to { transform: translateX(100%);}
+}
+
+
+
+/* Estilos para o container do conteúdo */
+.container {
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    background-color: hsla(0, 0%, 0%, 0.452);
+    color:#fff;
+}
+
+.imagem-canto-inferior-direito {
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+
+}
+.imagem-robo{
+    position: fixed;
+    bottom: 0; 
+    left: 33%; 
+    top: 25%;
+    
+  }
+
+  .emoji-sad {
+    font-size: 24px; /* Tamanho do emoji */

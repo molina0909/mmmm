@@ -1,0 +1,95 @@
+body {
+    font-family: "Arial Black", sans-serif;
+    margin: 1;
+    padding: 0%;
+    background-image: url('./tecno.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsla(0, 0%, 0%, 0.452);
+}
+
+
+header {
+    color: rgb(12, 69, 73);
+    text-align: center;
+    padding: 33px 0;   
+    background-color: hsla(0, 0%, 0%, 0.452);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    animation: EnlargeBlock 0.5s both;
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; 
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;  
+    font-size: 17px; 
+}
+
+main1{
+padding: 30px;
+color: white;
+text-align: left;
+margin: 8px;
+animation: fadeintext .5s 1.1s both;
+background-color: hsla(0, 0%, 0%, 0.452);
+}
+
+.balao1 {
+    position: fixed;
+    padding: 10px;
+    top: 28%;
+    background-color: hsla(0, 0%, 0%, 0.452);
+    border: 1px solid #ccc;
+    color: white;
+    border-radius: 5px;
+    width: 600px; /* Ajuste o tamanho do balão conforme necessário */
+    animation: fadeintext .5s 1.1s both;
+    left: 0;
+  }
+
+
+@keyframes fadeintext {from {opacity: 0;} }
+{from{opacity .5;}}
+to {opacity: 1;}
+
+@keyframes EnlargeBlock {from {width: 50%;}
+  to {width : 100%}
+  }
+
+  main2{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+  }
+
+  .balao2 
+    {
+        position: fixed;
+        padding: 10px;
+        top: 28%;
+        background-color: hsla(0, 0%, 0%, 0.452);
+        border: 1px solid #ccc;
+        color: white;
+        border-radius: 5px;
+        width: 600px; /* Ajuste o tamanho do balão conforme necessário */
+        animation: fadeintext .5s 1.1s both;
+        right: 0;
+        text-size-adjust: 33;
+        font-size: 11px
+      }
+
+ 
